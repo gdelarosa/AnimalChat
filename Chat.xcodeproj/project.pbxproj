@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4487A075FAF57964693C9756 /* Pods_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EFFFA77C9FFDE18C342F9E /* Pods_Chat.framework */; };
+		515B3F6E1F2935C7000DB683 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B3F6D1F2935C7000DB683 /* AuthService.swift */; };
 		51BCFDE91F26DAC100AC944B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BCFDE81F26DAC100AC944B /* AppDelegate.swift */; };
 		51BCFDEE1F26DAC100AC944B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BCFDEC1F26DAC100AC944B /* Main.storyboard */; };
 		51BCFDF01F26DAC100AC944B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BCFDEF1F26DAC100AC944B /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		03817BBDAC7A77A0CA753812 /* Pods-ChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatTests/Pods-ChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		10BDEA6076D76526C28F1A94 /* Pods-Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat/Pods-Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		515B3F6D1F2935C7000DB683 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		51BCFDE51F26DAC100AC944B /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BCFDE81F26DAC100AC944B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51BCFDED1F26DAC100AC944B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		515B3F6C1F2935A3000DB683 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				515B3F6D1F2935C7000DB683 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		51BCFDDC1F26DAC100AC944B = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		51BCFDE71F26DAC100AC944B /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				515B3F6C1F2935A3000DB683 /* Services */,
 				51BCFE181F26FBC300AC944B /* Utilities */,
 				51BCFE081F26E6A900AC944B /* SupportingFiles */,
 				51BCFE0F1F26E9FF00AC944B /* Model */,
@@ -395,6 +406,7 @@
 				51BCFE151F26EC7100AC944B /* ChannelVC.swift in Sources */,
 				51BCFE131F26EA3500AC944B /* ChatVC.swift in Sources */,
 				51BCFE1E1F2704F500AC944B /* CreateAccountVC.swift in Sources */,
+				515B3F6E1F2935C7000DB683 /* AuthService.swift in Sources */,
 				51BCFE171F26F25400AC944B /* GradientView.swift in Sources */,
 				51BCFE1C1F27014000AC944B /* loginVC.swift in Sources */,
 				51BCFDE91F26DAC100AC944B /* AppDelegate.swift in Sources */,
